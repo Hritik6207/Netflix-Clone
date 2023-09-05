@@ -67,7 +67,7 @@ header {
   background-color: rgb(186, 0, 0);
 }
 .home {
-  height: 504vh;
+  height: 558vh;
   width: 100vw;
   background-color: #4c4a4a;
 }
@@ -313,4 +313,104 @@ header {
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
   color: white;
+}
+.faq{
+  height: 150vh;
+  width: 100%;
+  background-color: #000000;
+}
+.sum{
+  width: 60vw;
+  justify-content: left;
+  margin: auto;
+  padding-top: 5vh;
+  display: flex;
+}
+.sum summary,.sum details{
+  color: white;
+  font-size: 1.5em;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+    font-weight: 400;
+}
+.faq p:nth-child(1){
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    padding-top: 70px;
+}
+.ready{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.tt{
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: 400;
+}
+.abcd{
+  background: black;
+  width: 24vw;
+  height: 8vh;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-size: 1em;
+  padding-left: 15px;
+}
+.input {
+  justify-content: center;
+  margin: auto;
+  display: inline;
+}
+.input::placeholder {
+  font-size: 1em;
+}
+footer{
+  background-color: #000000;
+  color: rgb(176, 160, 160);
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  height: 55vh;
+}
+.title{
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.col{
+  display: flex;
+  margin: 25px;
+}
+.col ul li{
+  list-style: none;
+  margin: 15px;
+}
+.col1{
+  width: 30%;
+}
+.col2{
+  width: 30%;
+}
+.col3{
+  width: 30%;
+}
+.aa{
+  margin-top: 85px;
+  margin-left: 25px;
+}
+.btnn{
+  margin-left: 25px;
 }
